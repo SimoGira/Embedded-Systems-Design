@@ -1,0 +1,1 @@
+Questo design implementa fedelmente quella che è la descrizione originale implementata nei precedenti progetti (systemC), utilizza quindi una FMS a 14 stati, ma purtroppo come descritto nella relazione non è sintetizzabile.

@@ -1,0 +1,12 @@
+C:/Users/Simone/Desktop/Modelsim/xtea.vhdl {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Simone/Desktop/Modelsim/xtea.vhdl
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package xtea_pack
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package xtea_pack
+-- Loading package NUMERIC_BIT
+-- Compiling entity xtea
+-- Compiling architecture xtea of xtea
+
+} {} {}}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription copyright="Hand writter by Stefano Centomo" description="simple gain block" fmiVersion="2.0" generationDateAndTime="2017:09:13 11:35:55" generationTool="HIF2VP" guid="affdc61d-653c-4476-8ad3-91b2e55264f3" modelName="gain" numberOfEventIndicators="0" variableNamingConvention="structured">
+	<CoSimulation canBeInstantiatedOnlyOncePerProcess="false" canGetAndSetFMUstate="false" canHandleVariableCommunicationStepSize="false" canInterpolateInputs="false" canNotUseMemoryManagementFunctions="false" canRunAsynchronuously="false" canSerializeFMUstate="false" maxOutputDerivativeOrder="0" modelIdentifier="gain" needsExecutionTool="false" providesDirectionalDerivative="false"/>
+
+	<LogCategories>
+		<Category name="logAll"/>
+		<Category name="logSingularLinearSystems"/>
+		<Category name="logNonlinearSystems"/>
+		<Category name="logDynamicStateSelection"/>
+		<Category name="logStatusWarning"/>
+		<Category name="logStatusDiscard"/>
+		<Category name="logStatusError"/>
+		<Category name="logStatusFatal"/>
+		<Category name="logStatusPending"/>
+		<Category name="logFmi2Call"/>
+	</LogCategories>
+	<ModelVariables>
+	
+
+		<ScalarVariable causality="input" description="data flag" name="data_rdy" valueReference="0" variability="discrete">
+
+			<Boolean start="false"/>
+
+		</ScalarVariable>
+	
+
+		<ScalarVariable causality="output" description="result flag" name="result_rdy" valueReference="1" variability="discrete">
+
+			<Boolean />
+
+		</ScalarVariable>
+
+
+		<ScalarVariable causality="input" description="data from the memory" name="data" valueReference="0" variability="discrete">
+
+			<Integer start="0"/>
+
+		</ScalarVariable>
+	
+	<!-- Missing result port here....> <!-->
+	<!-- Missing result port here....> <!-->
+	<!-- Missing result port here....> <!-->
+		<ScalarVariable causality="output" description="result" name="result" valueReference="1" variability="discrete">
+
+			<Integer />
+
+		</ScalarVariable>
+
+	</ModelVariables>
+	<ModelStructure/>
+</fmiModelDescription>

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/fmuInterface.h
+cstddef
+-
+cstring
+-
+fmi2Functions.h
+-
+stdint.h
+-
+stdlib.h
+-
+
+/home/fdl/fmi_headers/fmi2FunctionTypes.h
+fmi2TypesPlatform.h
+/home/fdl/fmi_headers/fmi2TypesPlatform.h
+stddef.h
+-
+
+/home/fdl/fmi_headers/fmi2Functions.h
+fmi2Functions.h
+/home/fdl/fmi_headers/fmi2Functions.h
+fmi2TypesPlatform.h
+/home/fdl/fmi_headers/fmi2TypesPlatform.h
+fmi2FunctionTypes.h
+/home/fdl/fmi_headers/fmi2FunctionTypes.h
+stdlib.h
+-
+
+/home/fdl/fmi_headers/fmi2TypesPlatform.h
+
+/home/fdl/fmi_lesson/models/gain/cpp/src/fmuInterface.cc
+fmuInterface.h
+/home/fdl/fmi_lesson/models/gain/cpp/src/fmuInterface.h
+
